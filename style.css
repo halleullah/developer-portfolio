@@ -20,6 +20,7 @@ h1{
     padding-left: 70px;
     padding-right: 70px;
     
+    
     }
  .hw img{
      width:70%;
@@ -41,6 +42,39 @@ h1{
      background-position: right;
      padding-right: 40px;
      
+ }
+ .flexible-container{
+     display: flex;
+     background-image: url(images/exp-bg.png);
+        background-repeat:no-repeat;
+        background-position: left;
+     
+ }
+
+ .patch{
+     width: 40%;
+     margin-left: 3%;
+     margin-right: 5%;
+        box-shadow:10px 10px 40px grey;
+        padding: 40px;
+        border-radius: 20px;
+        
+        
+        
+ }
+ #web-dev{
+     border-left: 7px solid;
+      border-image: linear-gradient(blue,cyan);
+      border-image-slice: 1;
+ }
+ #weap{
+     border-left: 7px solid;
+     border-image: linear-gradient(rgb(228, 88, 174),orange);
+     border-image-slice: 1;
+ }
+ footer p{
+          padding-top: 100px;
+          text-align: center;
  }
  
 
