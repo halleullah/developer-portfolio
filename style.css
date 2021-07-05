@@ -18,6 +18,7 @@ h1{
 
 .hw{width: 50%;
     padding-left: 70px;
+    padding-right: 70px;
     
     }
  .hw img{
@@ -26,11 +27,21 @@ h1{
  .link-button{
               text-decoration: none;
               background-image: linear-gradient(brown, rgb(235,53,53));
-              padding: 10px 40px;
+              padding:10px 40px;
+              
               border-radius: 5px;
               color:white;
               font-weight: 700;
  }  
+ .gameplay{
+     display: flex;
+     
+     background-image: url(dream-bg.png);
+     background-repeat: no-repeat;
+     background-position: right;
+     padding-right: 40px;
+     
+ }
  
 
  
